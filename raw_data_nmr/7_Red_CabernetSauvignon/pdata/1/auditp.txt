@@ -1,0 +1,47 @@
+##TITLE= Audit trail, TopSpin 3.5 pl 5
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= mcshan_assist
+$$ /opt/topspin3.5pl5/data/mcshan_assist/nmr/03052025_Wine_Profiling/7/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2025-03-06 12:30:18.017 -0500>,<mcshan_assist>,<rey>,<go4>,<TopSpin 3.5.5>,
+      <created by zg
+	started at 2025-03-06 12:16:25.494 -0500,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       00 5B 75 F8 24 B8 9D 24 C7 2E 26 00 A4 F2 D3 BD
+       data hash MD5: 67338
+       5A 6A 93 A4 25 84 5F E5 09 D3 D6 54 F8 BB FD BA>)
+(   2,<2025-03-06 12:30:28.652 -0500>,<mcshan_assist>,<rey>,<proc1d>,<TopSpin 3.5.5>,
+      <Start of raw data processing
+       efp LB = 0.3 FT_mod = 6 PKNL = 1 PHC0 = 281.9469 PHC1 = -59.37746 SI = 32K 
+       data hash MD5: 32K
+       6C 6E 52 F4 12 E6 76 E7 60 7E B4 70 2B 2C 57 E6>)
+(   3,<2025-03-06 12:30:31.318 -0500>,<mcshan_assist>,<rey>,<proc1d>,<TopSpin 3.5.5>,
+      <apk 
+       data hash MD5: 32K
+       D8 95 C6 46 3F 24 0D D4 56 05 D5 82 F1 9B 07 E8>)
+(   4,<2025-03-06 12:39:53.350 -0500>,<mcshan_assist>,<rey>,<audit>,<TopSpin 3.5.5>,
+      <user comment:
+       TITLE=Wine #7
+       
+       Red
+       Cabernet Sauvignon: 2021 Vasse Felix Filius Cabernet Sauvignon, Margaret River, Australia
+       
+       298.15KTITLE_END
+       data hash MD5: 32K
+       D8 95 C6 46 3F 24 0D D4 56 05 D5 82 F1 9B 07 E8>)
+(   5,<2025-03-06 12:39:53.513 -0500>,<mcshan_assist>,<rey>,<audit>,<TopSpin 3.5.5>,
+      <user comment:
+       TITLE=Wine #7
+       
+       Red
+       Cabernet Sauvignon: 2021 Vasse Felix Filius Cabernet Sauvignon, Margaret River, Australia
+       
+       298.15KTITLE_END
+       data hash MD5: 32K
+       D8 95 C6 46 3F 24 0D D4 56 05 D5 82 F1 9B 07 E8>)
+##END=
+
+$$ hash MD5
+$$ FF 2D 4A BD C3 99 B8 48 AB 9F C1 8D F6 7F 0F 07

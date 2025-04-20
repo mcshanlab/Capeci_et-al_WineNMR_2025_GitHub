@@ -1,0 +1,11 @@
+##TITLE= Parameter file, TopSpin 3.5 pl 5
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= mcshan_assist
+$$ 2025-03-13 12:36:56.334 -0400  mcshan_assist@rey
+$$ /opt/topspin3.5pl5/data/mcshan_assist/nmr/03052025_Wine_Profiling/5/pdata/1/assocs
+$$ process /opt/topspin3.5pl5/prog/mod/dataserver
+##$MULTDISP= </opt/topspin3.5pl5/data/mcshan_assist/nmr/03052025_Wine_Profiling/6/pdata/1|/opt/topspin3.5pl5/data/mcshan_assist/nmr/03052025_Wine_Profiling/12/pdata/1|/opt/topspin3.5pl5/data/mcshan_assist/nmr/03052025_Wine_Profiling/13/pdata/1>
+##END=

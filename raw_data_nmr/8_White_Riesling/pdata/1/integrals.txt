@@ -1,0 +1,5 @@
+   Current data set:
+   NAME =	03052025_Wine_Profiling	EXPNO =	8	PROCNO = 1
+   DU   =	/opt/topspin3.5pl5/data/mcshan_assist/nmr
+
+   Number   Integrated Region     Integral

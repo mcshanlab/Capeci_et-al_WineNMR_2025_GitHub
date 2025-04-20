@@ -1,0 +1,27 @@
+##TITLE= Audit trail, TopSpin 3.5 pl 5
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= mcshan_assist
+$$ /opt/topspin3.5pl5/data/mcshan_assist/nmr/03052025_Wine_Profiling/3/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2025-03-05 19:33:38.212 -0500>,<mcshan_assist>,<rey>,<go4>,<TopSpin 3.5.5>,
+      <created by zg
+	started at 2025-03-05 19:19:48.710 -0500,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       00 5B 75 F8 24 B8 9D 24 C7 2E 26 00 A4 F2 D3 BD
+       data hash MD5: 67338
+       02 0C B9 8F F1 47 C9 91 61 33 A0 45 85 58 57 64>)
+(   2,<2025-03-05 19:33:42.647 -0500>,<mcshan_assist>,<rey>,<proc1d>,<TopSpin 3.5.5>,
+      <Start of raw data processing
+       efp LB = 0.3 FT_mod = 6 PKNL = 1 PHC0 = 281.9469 PHC1 = -59.37746 SI = 32K 
+       data hash MD5: 32K
+       D0 1B F3 FA 5E BB 6D 60 F5 28 5A E5 8A 67 9D 62>)
+(   3,<2025-03-05 19:33:45.130 -0500>,<mcshan_assist>,<rey>,<proc1d>,<TopSpin 3.5.5>,
+      <apk 
+       data hash MD5: 32K
+       DC 2A 87 81 E7 15 96 43 53 18 48 28 61 6F B4 5E>)
+##END=
+
+$$ hash MD5
+$$ F7 18 7A 9A ED D3 D4 5E B2 F0 D0 D2 37 D6 E9 CE

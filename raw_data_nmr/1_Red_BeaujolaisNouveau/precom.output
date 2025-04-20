@@ -1,0 +1,277 @@
+label list:
+line no.  pc   label
+      43 0xffffffff 1
+      47 0xffffffff 2
+      48 0xffffffff LBLF0
+
+pulse program: "/opt/topspin3.5pl5/data/mcshan_assist/nmr/03052025_Wine_Profiling/10/pulseprogram"
+================
+dur0 == line 0
+fixdel(1.000000 usec) setNmr6: 0x1 
+
+dur1 == line 0
+fixdel(10.000000 usec) 
+
+dur2 == line 0
+fixdel(1000.000000 usec) clrNmr1: 0x400000 
+
+'noesypr1d': line   1--->;noesypr1d
+'noesypr1d': line   2--->;avance-version (12/01/11)
+'noesypr1d': line   3--->;1D version of noesyphpr
+'noesypr1d': line   4--->;with presaturation during relaxation delay and mixing time
+'noesypr1d': line   5--->;
+'noesypr1d': line   6--->;$CLASS=HighRes
+'noesypr1d': line   7--->;$DIM=1D
+'noesypr1d': line   8--->;$TYPE=
+'noesypr1d': line   9--->;$SUBTYPE=
+'noesypr1d': line  10--->;$COMMENT=
+'noesypr1d': line  11--->
+'noesypr1d': line  12--->
+'Avance.incl': line   1--->;Avance3.incl
+'Avance.incl': line   2--->;   for AV III
+'Avance.incl': line   3--->;
+'Avance.incl': line   4--->;avance-version (13/06/17)
+'Avance.incl': line   5--->;
+'Avance.incl': line   6--->;$CLASS=HighRes Incl
+'Avance.incl': line   7--->;$COMMENT=
+'Avance.incl': line 169--->;$Id: Avance3.incl,v 1.10.2.2 2013/08/30 09:43:33 ber Exp $
+'noesypr1d': line  13--->
+'noesypr1d': line  14--->
+'noesypr1d': line  16--->"d11=30m"
+'noesypr1d': line  17--->"d12=20u"
+'noesypr1d': line  18--->
+'noesypr1d': line  19--->
+'noesypr1d': line  20--->"acqt0=-p1*2/3.1416"
+'noesypr1d': line  21, macro exp. def. 1--->; dimension 1D; AQ_mode 
+'noesypr1d': line  21, macro exp. def. 2--->define delay MCWRK
+'noesypr1d': line  21, macro exp. def. 3--->define delay MCREST
+'noesypr1d': line  21, macro exp. def. 4--->"MCREST = 30m - 30m"
+'noesypr1d': line  21, macro exp. def. 5--->"MCWRK = 0.333333*30m"
+'noesypr1d': line  21, macro exp. def. 6--->
+'noesypr1d': line  21, macro exp. def. 7--->    dccorr
+
+Begin of PTList: lalign
+{
+    dur3 == line 40
+    fixdel(5.500000 usec) SYNCRCU 
+    
+    dur4 == line 40
+    fixdel(4.500000 usec) ADCGO RCU 1 ADCGO_DC channel 1: SY receive phase(65,0) PHADDO PHREF 
+    phase(65,8) receive 
+}
+
+
+{
+    dur5 == line 40
+    de 
+    
+    dur6 == line 40
+    fixdel(1000.000000 usec) setNmr1: 0x2100 
+    
+    dur7 == line 40
+    fixdel(500.000000 usec) clrNmr1: 0x2100  EVENT-EOSZ eos1 
+}
+End of PTList
+
+'noesypr1d': line  23--->1 ze
+dur8 == line 43
+fixdel(3000.000000 usec)  EVENT-EOSZ ze1 
+
+'noesypr1d': line  24, macro exp. start 1--->2 MCWRK  * 2
+dur9 == line 47
+MCWRK  * 2 
+
+'noesypr1d': line  24, macro exp. start 2--->LBLF0, MCWRK
+dur10 == line 48
+MCWRK 
+
+'noesypr1d': line  24, macro exp. start 3--->  MCREST
+dur11 == line 49
+MCREST 
+
+'noesypr1d': line  25--->  d12 pl9:f1
+dur12 == line 51
+d12 channel 1: set power PL9 
+
+'noesypr1d': line  26--->  d1 cw:f1 ph29
+dur13 == line 52
+d1 channel 1: CW phase(29,0) PHBASE 
+
+'noesypr1d': line  27--->  4u do:f1
+dur14 == line 53
+fixdel(4.000000 usec) channel 1: DO 
+
+'noesypr1d': line  28--->  d12 pl1:f1
+dur15 == line 54
+d12 channel 1: set power PL1 
+
+'noesypr1d': line  29--->  p1 ph1
+dur16 == line 55
+p1 phase(1,0) 
+
+'noesypr1d': line  30--->  4u
+dur17 == line 56
+fixdel(4.000000 usec) 
+
+'noesypr1d': line  31--->  p1 ph2
+dur18 == line 57
+p1 phase(2,0) 
+
+'noesypr1d': line  32--->  d12 pl9:f1
+dur19 == line 58
+d12 channel 1: set power PL9 
+
+'noesypr1d': line  33--->  d8 cw:f1
+dur20 == line 59
+d8 channel 1: CW 
+
+'noesypr1d': line  34--->  4u do:f1
+dur21 == line 60
+fixdel(4.000000 usec) channel 1: DO 
+
+'noesypr1d': line  35--->  d12 pl1:f1
+dur22 == line 61
+d12 channel 1: set power PL1 
+
+'noesypr1d': line  36--->  p1 ph3
+dur23 == line 62
+p1 phase(3,0) 
+
+'noesypr1d': line  37--->  go=2 ph31
+
+Begin of PTList: lalign
+{
+    dur24 == line 63
+    fixdel(5.500000 usec) SYNCRCU 
+    
+    dur25 == line 63
+    fixdel(4.500000 usec) ADCGO RCU 1 channel 1: SY receive phase(65,0) PHADDO PHREF 
+    phase(31,8) receive 
+}
+
+
+{
+    dur26 == line 63
+    de 
+    
+    dur27 == line 63
+    aq channel 1: CPDSNG prog 16 (CPDPRG17)via ptr 0 
+    
+    dur28 == line 63
+    fixdel(2500.000000 usec) 
+    
+    dur29 == line 63
+    fixdel(500.000000 usec) channel 1: Dwell off channel 1: SY transmit  EVENT-EOSZ eos1 
+    loop to 'noesypr1d': line  24, macro exp. start 1 times ns (ns+ds) 
+}
+End of PTList
+
+'noesypr1d': line  38, macro exp. mc 1--->  MCWRK wr #0
+dur30 == line 65
+MCWRK  AQBUS-WR RCU 1 wr 0 
+
+'noesypr1d': line  38, macro exp. mc 2--->  MCWRK zd
+'noesypr1d': line  38, macro exp. mc 3--->  lo to LBLF0 times td0
+'noesypr1d': line  38, macro exp. mc 4--->
+dur31 == line 66
+MCWRK  EVENT-EOSZ zd1 loop to 'noesypr1d': line  24, macro exp. start 2 times td0 
+
+'noesypr1d': line  39--->exit
+'noesypr1d': line  40--->
+dur32 == line 70
+fixdel(50000.000000 usec) 
+
+dur33 == line 70
+fixdel(10000.000000 usec)  EVENT-EOSZ esc0 
+
+dur34 == line 70
+fixdel(10000.000000 usec) 
+
+
+phase program no. 65:
+Fraction:  4.000000 
+Increment:  0x4000 =  90.00 degrees
+  0:             0 =   0.00 degrees
+
+phase program no. 1:
+Fraction:  4.000000 
+Increment:  0x4000 =  90.00 degrees
+  0:             0 =   0.00 degrees
+  1:        0x8000 = 180.00 degrees
+
+phase program no. 2:
+Fraction:  4.000000 
+Increment:  0x4000 =  90.00 degrees
+  0:             0 =   0.00 degrees
+  1:             0 =   0.00 degrees
+  2:             0 =   0.00 degrees
+  3:             0 =   0.00 degrees
+  4:             0 =   0.00 degrees
+  5:             0 =   0.00 degrees
+  6:             0 =   0.00 degrees
+  7:             0 =   0.00 degrees
+  8:        0x8000 = 180.00 degrees
+  9:        0x8000 = 180.00 degrees
+ 10:        0x8000 = 180.00 degrees
+ 11:        0x8000 = 180.00 degrees
+ 12:        0x8000 = 180.00 degrees
+ 13:        0x8000 = 180.00 degrees
+ 14:        0x8000 = 180.00 degrees
+ 15:        0x8000 = 180.00 degrees
+
+phase program no. 3:
+Fraction:  4.000000 
+Increment:  0x4000 =  90.00 degrees
+  0:             0 =   0.00 degrees
+  1:             0 =   0.00 degrees
+  2:        0x8000 = 180.00 degrees
+  3:        0x8000 = 180.00 degrees
+  4:        0x4000 =  90.00 degrees
+  5:        0x4000 =  90.00 degrees
+  6:        0xc000 = 270.00 degrees
+  7:        0xc000 = 270.00 degrees
+
+phase program no. 29:
+Fraction:  4.000000 
+Increment:  0x4000 =  90.00 degrees
+  0:             0 =   0.00 degrees
+
+phase program no. 31:
+Fraction:  4.000000 
+Increment:  0x4000 =  90.00 degrees
+  0:             0 =   0.00 degrees
+  1:        0x8000 = 180.00 degrees
+  2:        0x8000 = 180.00 degrees
+  3:             0 =   0.00 degrees
+  4:        0x4000 =  90.00 degrees
+  5:        0xc000 = 270.00 degrees
+  6:        0xc000 = 270.00 degrees
+  7:        0x4000 =  90.00 degrees
+  8:        0x8000 = 180.00 degrees
+  9:             0 =   0.00 degrees
+ 10:             0 =   0.00 degrees
+ 11:        0x8000 = 180.00 degrees
+ 12:        0xc000 = 270.00 degrees
+ 13:        0x4000 =  90.00 degrees
+ 14:        0x4000 =  90.00 degrees
+ 15:        0xc000 = 270.00 degrees
+file list:
+=================================================
+          filename              actlineno  offset
+=================================================
+              noesypr1d        1            1
+            Avance.incl       14           14
+            Avance.incl       22         -146
+              noesypr1d       24           12
+              noesypr1d       27           12
+noesypr1d exp. def. par       33           12
+              noesypr1d       41           19
+              noesypr1d       42           20
+noesypr1d exp. def. of        44           20
+              noesypr1d       45           22
+noesypr1d exp. start la       46           22
+              noesypr1d       50           26
+noesypr1d exp. mc cmd.        64           26
+              noesypr1d       69           31
+              noesypr1d       78           30
+              noesypr1d       90           30

@@ -1,0 +1,80 @@
+# Date: 2025-03-05 23:12:07 UTC,,,,
+# FID: 1,,,,
+# Biofluid: Wine (700 only),,,,
+# NMR Frequency: 700 MHz,,,,
+# DSS Concentration: 909.09 µM,,,,
+# Fast Profile: No,,,,
+# Manually Phased: No,,,,
+# Run Time: 7 minutes 53 seconds,,,,
+# Job ID: 61bf10dc9305cb08695e59d8749f701198a75ac0-15220,,,,
+HMDB ID,Compound Name,Concentration (µM),Threshold (µM),Confidence Score
+HMDB00034,Adenine,7.4,0.1,10
+HMDB00042,Acetate,3396,0.1,10
+HMDB00043,Betaine,25.3,0.1,10
+HMDB00056,beta-Alanine,0,0.1,10
+HMDB00060,Acetoacetate,2.7,0.1,10
+HMDB00062,Carnitine,81.1,0.1,10
+HMDB00097,Choline,62.6,0.1,10
+HMDB00098,Xylose,558.5,0.1,10
+HMDB00108,Ethanol,1047429.9,0.1,10
+HMDB00112,4-Aminobutyrate,49.3,0.1,10
+HMDB00122,Glucose,534.2,0.1,10
+HMDB00131,Glycerol,52729.4,0.1,10
+HMDB00142,Formate,12.1,0.1,10
+HMDB00143,Galactose,325.7,0.1,10
+HMDB00149,Ethanolamine,120.9,0.1,10
+HMDB00156,Malate,0,0.1,10
+HMDB00158,Tyrosine,6.6,0.1,10
+HMDB00159,Phenylalanine,11.2,0.1,10
+HMDB00161,Alanine,0,0.1,10
+HMDB00162,L-Proline,1213,0.1,10
+HMDB00168,Asparagine,0,0.1,10
+HMDB00190,Lactic acid,7563.3,0.1,10
+HMDB00191,Aspartate,50.8,0.1,10
+HMDB00208,Oxoglutarate,119.7,0.1,10
+HMDB00211,myo-Inositol,1491.1,0.1,10
+HMDB00214,Ornithine,2.9,0.1,10
+HMDB00243,Pyruvate,27.5,0.1,10
+HMDB00254,Succinate,3404.7,0.1,10
+HMDB00258,Sucrose,0,0.1,10
+HMDB00267,Pyroglutamate,64.6,0.1,10
+HMDB00296,Uridine,21.9,0.1,10
+HMDB00606,2-Hydroxyglutaric acid,4.2,0.1,10
+HMDB00646,Arabinose,723.3,0.1,10
+HMDB00660,Fructose,1135.8,0.1,10
+HMDB00671,Indole-3-lactate,0.1,0.1,10
+HMDB00687,Leucine,0,0.1,10
+HMDB00696,Methionine,32,0.1,10
+HMDB00820,Propanol,449.9,0.1,10
+HMDB00875,Trigonelline,65.7,0.1,10
+HMDB00954,Ferulate,0,0.1,10
+HMDB00956,Tartarate,3140.5,0.1,10
+HMDB00975,Trehalose,403.4,0.1,10
+HMDB00990,Acetaldehyde,17.7,0.1,10
+HMDB01659,Acetone,8,0.1,10
+HMDB01871,Epicatechin,52.8,0.1,10
+HMDB01875,Methanol,2520.9,0.1,10
+HMDB01964,Caffeate,41,0.1,10
+HMDB02085,Syringate,9.3,0.1,10
+HMDB02322,Cadaverine,25.6,0.1,10
+HMDB02545,Galacturonate,1132.2,0.1,10
+HMDB02780,Catechin,0,0.1,10
+HMDB03070,Shikimate,5.9,0.1,10
+HMDB03156,2_3-Butanediol,5735.9,0.1,10
+HMDB03243,Acetoin,71.9,0.1,10
+HMDB04284,Tyrosol,110.4,0.1,10
+HMDB05807,Gallate,54.2,0.1,10
+HMDB06006,Isobutanol,365.8,0.1,10
+HMDB06007,Isoamylalcohol,1151.1,0.1,10
+HMDB13680,Caftarate,193,0.1,10
+HMDB29581,Sorbate,0.5,0.1,10
+HMDB31217,Ethyl acetate,201.3,0.1,10
+HMDB31527,2-Methylbutanol,285.6,0.1,10
+HMDB33944,Phenylethanol,182.3,0.1,10
+HMDB34355,5-Hydroxymethyl-2-furancarboxaldehyde,16.9,0.1,10
+HMDB40735,Ethyl lactate,459,0.1,10
+HMDB80990,Acetaldehyde (bisulfite),66.7,0.1,10
+HMDB99996,1_3-Propanediol,17,0.1,10
+HMDB99997,Phasing compound,96.6,0.1,10
+HMDB99998,Phasing compound,769.4,0.1,10
+HMDB99999,DSS,999.8,0.1,10

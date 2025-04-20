@@ -1,0 +1,58 @@
+##TITLE= Audit trail, TopSpin 3.5 pl 5
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= mcshan_assist
+$$ /opt/topspin3.5pl5/data/mcshan_assist/nmr/03052025_Wine_Profiling/17/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2025-03-05 20:49:32.455 -0500>,<mcshan_assist>,<rey>,<go4>,<TopSpin 3.5.5>,
+      <created by zg
+	started at 2025-03-05 20:35:43.162 -0500,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       00 5B 75 F8 24 B8 9D 24 C7 2E 26 00 A4 F2 D3 BD
+       data hash MD5: 67338
+       0B D7 A7 AD 24 02 E2 EA 16 4B 00 F7 DC 95 A2 08>)
+(   2,<2025-03-05 20:49:37.162 -0500>,<mcshan_assist>,<rey>,<proc1d>,<TopSpin 3.5.5>,
+      <Start of raw data processing
+       efp LB = 0.3 FT_mod = 6 PKNL = 1 PHC0 = 281.9469 PHC1 = -59.37746 SI = 32K 
+       data hash MD5: 32K
+       44 FD 34 68 B7 2C 83 F5 4E F3 D7 A3 22 07 7F FD>)
+(   3,<2025-03-05 20:49:40.324 -0500>,<mcshan_assist>,<rey>,<proc1d>,<TopSpin 3.5.5>,
+      <apk 
+       data hash MD5: 32K
+       3A B9 C6 84 2F 36 8B 23 C1 6B 25 FB CC 21 AE A9>)
+(   4,<2025-03-06 11:45:54.651 -0500>,<mcshan_assist>,<rey>,<audit>,<TopSpin 3.5.5>,
+      <user comment:
+       TITLE=Wine #17
+       
+       White
+       Sauvignon blanc: 2023 Patricia Green Sauvignon Blanc, Willamette Valley, Oregon, USA
+       + 10% v/v diethylene glycol
+       
+       298.15KTITLE_END
+       data hash MD5: 32K
+       3A B9 C6 84 2F 36 8B 23 C1 6B 25 FB CC 21 AE A9>)
+(   5,<2025-03-13 13:32:32.253 -0400>,<mcshan_assist>,<rey>,<audit>,<TopSpin 3.5.5>,
+      <user comment:
+       TITLE=+ 10% v/v diethylene glycol
+       
+       White
+       Sauvignon blanc: 2023 Patricia Green Sauvignon Blanc, Willamette Valley, Oregon, USA
+       
+       298.15KTITLE_END
+       data hash MD5: 32K
+       3A B9 C6 84 2F 36 8B 23 C1 6B 25 FB CC 21 AE A9>)
+(   6,<2025-03-13 13:32:32.425 -0400>,<mcshan_assist>,<rey>,<audit>,<TopSpin 3.5.5>,
+      <user comment:
+       TITLE=+ 10% v/v diethylene glycol
+       
+       White
+       Sauvignon blanc: 2023 Patricia Green Sauvignon Blanc, Willamette Valley, Oregon, USA
+       
+       298.15KTITLE_END
+       data hash MD5: 32K
+       3A B9 C6 84 2F 36 8B 23 C1 6B 25 FB CC 21 AE A9>)
+##END=
+
+$$ hash MD5
+$$ 17 31 BB 2D F2 61 AD 7E 75 4C 43 13 DB 50 51 F7

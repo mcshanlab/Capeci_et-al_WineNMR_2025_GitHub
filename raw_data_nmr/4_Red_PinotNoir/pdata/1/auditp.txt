@@ -1,0 +1,66 @@
+##TITLE= Audit trail, TopSpin 3.5 pl 5
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= mcshan_assist
+$$ /opt/topspin3.5pl5/data/mcshan_assist/nmr/03052025_Wine_Profiling/4/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2025-03-06 11:23:48.920 -0500>,<mcshan_assist>,<rey>,<go4>,<TopSpin 3.5.5>,
+      <created by zg
+	started at 2025-03-06 11:09:59.640 -0500,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       00 5B 75 F8 24 B8 9D 24 C7 2E 26 00 A4 F2 D3 BD
+       data hash MD5: 67338
+       D4 7A ED AA C0 79 7D 8C 62 1B 2F C7 9D BD DC E5>)
+(   2,<2025-03-06 11:23:54.965 -0500>,<mcshan_assist>,<rey>,<proc1d>,<TopSpin 3.5.5>,
+      <Start of raw data processing
+       efp LB = 0.3 FT_mod = 6 PKNL = 1 PHC0 = 281.9469 PHC1 = -59.37746 SI = 32K 
+       data hash MD5: 32K
+       98 1D 7D C4 ED A1 9E 62 2A 7B 26 5C 3B BE FE 37>)
+(   3,<2025-03-06 11:23:56.872 -0500>,<mcshan_assist>,<rey>,<proc1d>,<TopSpin 3.5.5>,
+      <apk 
+       data hash MD5: 32K
+       4D A8 9D 7B A0 AC 23 0F 09 BE 3A 9D 14 5E CE EA>)
+(   4,<2025-03-06 12:38:29.910 -0500>,<mcshan_assist>,<rey>,<audit>,<TopSpin 3.5.5>,
+      <user comment:
+       TITLE=Wine #4
+       
+       Red Pinot noir: 2023 Illahe Vineyards Pinot Noir, Willamette Valley, Oregon, USA
+       
+       298.15KTITLE_END
+       data hash MD5: 32K
+       4D A8 9D 7B A0 AC 23 0F 09 BE 3A 9D 14 5E CE EA>)
+(   5,<2025-03-06 12:38:39.445 -0500>,<mcshan_assist>,<rey>,<audit>,<TopSpin 3.5.5>,
+      <user comment:
+       TITLE=Wine #4
+       
+       Red 
+       Pinot noir: 2023 Illahe Vineyards Pinot Noir, Willamette Valley, Oregon, USA
+       
+       298.15KTITLE_END
+       data hash MD5: 32K
+       4D A8 9D 7B A0 AC 23 0F 09 BE 3A 9D 14 5E CE EA>)
+(   6,<2025-03-06 12:38:39.763 -0500>,<mcshan_assist>,<rey>,<audit>,<TopSpin 3.5.5>,
+      <user comment:
+       TITLE=Wine #4
+       
+       Red 
+       Pinot noir: 2023 Illahe Vineyards Pinot Noir, Willamette Valley, Oregon, USA
+       
+       298.15KTITLE_END
+       data hash MD5: 32K
+       4D A8 9D 7B A0 AC 23 0F 09 BE 3A 9D 14 5E CE EA>)
+(   7,<2025-03-06 12:38:47.935 -0500>,<mcshan_assist>,<rey>,<audit>,<TopSpin 3.5.5>,
+      <user comment:
+       TITLE=Wine #4
+       
+       Red 
+       Pinot noir: 2023 Illahe Vineyards Pinot Noir, Willamette Valley, Oregon, USA
+       
+       298.15KTITLE_END
+       data hash MD5: 32K
+       4D A8 9D 7B A0 AC 23 0F 09 BE 3A 9D 14 5E CE EA>)
+##END=
+
+$$ hash MD5
+$$ 24 5B B0 CC 8C 0E B7 32 E5 12 85 45 D8 BA D7 14

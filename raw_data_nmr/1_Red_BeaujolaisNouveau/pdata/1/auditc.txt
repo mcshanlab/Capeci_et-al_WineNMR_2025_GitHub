@@ -1,0 +1,6 @@
+TITLE=Wine #1
+
+Red
+Beaujolais Nouveau: 2024 Georges Duboeuf Beaujolais Nouveau, Burgundy, France
+
+298.15KTITLE_END
